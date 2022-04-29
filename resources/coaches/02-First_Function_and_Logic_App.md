@@ -67,7 +67,7 @@ Choisissez l’une de ces trois options :
 
 * Les fonctions Azure permettent à vos équipes d’écrire moins de code, de maintenir une infrastructure moins importante et de réduire les coûts.
 * Les fonctions Azure sont légères et autonomes.  Les fonctions permettent de diviser facilement des applications monolithiques et de réduire vos délais/durées de cycle. Vos équipes peuvent donc faire passer le code en production de manière beaucoup plus rapide et efficace.
-* Azure Functions peut tirer parti des [conteneurs Docker personnalisés](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-function-linux-custom-image) pour respecter des exigences spécifiques liées à une version de langage ou à une dépendance qui ne sont pas fournies par l’image intégrée.
+* Azure Functions peut tirer parti des [conteneurs Docker personnalisés](https://docs.microsoft.com/fr-fr/azure/azure-functions/functions-create-function-linux-custom-image) pour respecter des exigences spécifiques liées à une version de langage ou à une dépendance qui ne sont pas fournies par l’image intégrée.
 
     > **Informations supplémentaires** Le service Azure Functions se compose de deux composants clés : un runtime et un contrôleur de mise à l’échelle. Le runtime Functions s’exécute et exécute votre code. Le runtime inclut une logique sur le déclenchement, la consignation et la gestion des exécutions de fonction. Le runtime Azure Functions peut s’exécuter n’importe où. L’autre composant est un contrôleur d’échelle. Le contrôleur d’échelle supervise le taux d’événements qui ciblent votre fonction et met proactivement à l’échelle le nombre d’instances exécutant votre application.
 

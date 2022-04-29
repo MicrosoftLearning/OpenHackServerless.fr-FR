@@ -49,7 +49,7 @@ Utilisez l’une des options suivantes :
 
 * Lors de l’écriture dans CosmosDB dans Logic Apps, le paramètre de clé de partition doit être ajouté en tant que nouveau paramètre au connecteur Mettre à jour ou créer le document CosmosDB. La valeur doit être placée entre guillemets.  La partition doit également être envoyée en tant que partie du corps du document à créer.  Si vous ne voyez pas la valeur de votre clé de partition dans le document et dans le paramètre de valeur de clé de partition, la création ou mise à jour de document ne fonctionnera pas.   En outre, vous pouvez passer en revue le JSON du concepteur et vérifier que « x-ms-documentdb-raw-partitionkey » est défini avec une valeur.  
 
-* Si vous recevez une erreur indiquant que le fournisseur de ressources Microsoft.EventGrid n’a pas été inscrit pour l’abonnement du participant, veillez à suivre les étapes d’inscription du fournisseur de ressources EventGrid dans [Activer le fournisseur de ressources Event Grid](https://docs.microsoft.com/en-us/azure/event-grid/custom-event-quickstart-portal).  
+* Si vous recevez une erreur indiquant que le fournisseur de ressources Microsoft.EventGrid n’a pas été inscrit pour l’abonnement du participant, veillez à suivre les étapes d’inscription du fournisseur de ressources EventGrid dans [Activer le fournisseur de ressources Event Grid](https://docs.microsoft.com/fr-fr/azure/event-grid/custom-event-quickstart-portal).  
 
 ## <a name="why-azure-functions-azure-logic-apps-azure-event-grid-and-azure-storage"></a>Pourquoi Azure Functions, Azure Logic Apps, Azure Event Grid et Stockage Azure
 

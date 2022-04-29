@@ -36,7 +36,7 @@ Choisir l’une de ces options
 
    >REMARQUE : Une solution est disponible à l’emplacement ~/solutions/codeless/Distributor_Notification/logicapp.json
 
-* Demandez aux équipes d’utiliser le connecteur Office 365 Outlook pour envoyer un e-mail. Si elles ont besoin d’une aide supplémentaire, dirigez-les vers l’article [Action Envoyer un e-mail (v2)](https://docs.microsoft.com/en-us/connectors/office365connector/#send-an-email-(v2)).  
+* Demandez aux équipes d’utiliser le connecteur Office 365 Outlook pour envoyer un e-mail. Si elles ont besoin d’une aide supplémentaire, dirigez-les vers l’article [Action Envoyer un e-mail (v2)](https://docs.microsoft.com/fr-fr/connectors/office365connector/#send-an-email-(v2)).  
 
 * Les participants doivent créer le contenu de l’e-mail avec des variables Logic App, puis insérer la variable dans le corps de l’e-mail.  Pour plus de simplicité, la totalité du corps de l’e-mail peut également être une variable composée.
 
@@ -44,7 +44,7 @@ Choisir l’une de ces options
 
 * Il existe un bogue connu avec Logic Apps et le connecteur Gestion des API : le connecteur ne peut pas récupérer la liste des actions lors de l’utilisation du niveau **Consommation** de la Gestion des API.  Pour plus d’informations, consultez [cette page](https://stackoverflow.microsoft.com/questions/169694/support-for-consumption-tier-apim-instances-in-the-logic-app-connector ) et [cette page](https://social.msdn.microsoft.com/Forums/890b2235-ff66-4186-9aa3-b16909dc81a1/logic-apps-no-showing-azure-api-management-apis?forum=azureapimgmt).
 
-* Si vous recevez une erreur indiquant que le fournisseur de ressources Microsoft.EventGrid n’a pas été inscrit pour l’abonnement du participant, veillez à suivre les étapes d’inscription du fournisseur de ressources EventGrid dans [Inscrire Event Grid en tant que fournisseur de ressources](https://docs.microsoft.com/en-us/azure/event-grid/custom-event-quickstart-portal).
+* Si vous recevez une erreur indiquant que le fournisseur de ressources Microsoft.EventGrid n’a pas été inscrit pour l’abonnement du participant, veillez à suivre les étapes d’inscription du fournisseur de ressources EventGrid dans [Inscrire Event Grid en tant que fournisseur de ressources](https://docs.microsoft.com/fr-fr/azure/event-grid/custom-event-quickstart-portal).
 
 ## <a name="why-azure-logic-apps"></a>Pourquoi Azure Logic Apps
 
@@ -55,7 +55,7 @@ Choisir l’une de ces options
 
 * Il n’y a pas d’objectif ou d’exigence spécifique pour IaC dans ce défi, mais sachez que la création de connecteurs Logic App dans le code est une opération difficile si l’équipe envisage cette approche. Il n’y a pas de ressource Terraform permettant de créer des connecteurs, mais les exemples Bicep et ARM disponibles en dehors de la documentation Microsoft peuvent déboucher sur une solution.
 
-[ARM pour les workflows logiques](https://docs.microsoft.com/en-us/azure/templates/microsoft.logic/workflows?tabs=bicep)
+[ARM pour les workflows logiques](https://docs.microsoft.com/fr-fr/azure/templates/microsoft.logic/workflows?tabs=bicep)
 [Guide pratique pour créer un connecteur d’application logique dans un modèle ARM](https://vincentlauzon.com/2017/10/28/how-to-create-a-logic-app-connector-in-an-arm-template/)
 [Guide pratique pour utiliser des connecteurs personnalisés d’applications logiques avec ARM et CI/CD](https://mikaelsand.se/2020/11/how-to-use-logic-apps-custom-connectors-with-arm-and-ci-cd/)
 [Guide pratique pour déployer une application logique avec le connecteur Office 365 dans un modèle ARM](https://stackoverflow.com/questions/60703570/how-to-deploy-logic-app-with-o365-connector-within-arm-template)

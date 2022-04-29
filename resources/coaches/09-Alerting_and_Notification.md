@@ -20,7 +20,7 @@ ms.locfileid: "140813655"
 * Créer une télémétrie personnalisée pour écrire dans la même instance App Insights que la fonction chaque fois qu’il y a une mauvaise évaluation
 * Utiliser la fonctionnalité Alertes de journal pour Application Insights afin de générer une alerte et un e-mail lorsque le seuil est atteint
 
-[Guide pratique - Analyse des sentiments](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis?tabs=version-3).  
+[Guide pratique - Analyse des sentiments](https://docs.microsoft.com/fr-fr/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis?tabs=version-3).  
 
 ## <a name="why-cognitive-services-azure-functions-azure-logic-apps-and-application-insights"></a>Pourquoi Cognitive Services, Azure Functions, Azure Logic Apps et Application Insights
 

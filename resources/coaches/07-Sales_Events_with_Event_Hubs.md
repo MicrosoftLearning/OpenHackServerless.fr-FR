@@ -29,15 +29,15 @@ ms.locfileid: "140813645"
 
     Informations supplémentaires sur les fonctions :
 
-    * [Exemple de fichier host.json](https://docs.microsoft.com/en-us/azure/azure-functions/functions-host-json)
+    * [Exemple de fichier host.json](https://docs.microsoft.com/fr-fr/azure/azure-functions/functions-host-json)
 
-    * [Host.json - Liaisons Functions à Event Hubs](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-event-hubs-trigger?tabs=csharp#hostjson-properties)  
+    * [Host.json - Liaisons Functions à Event Hubs](https://docs.microsoft.com/fr-fr/azure/azure-functions/functions-bindings-event-hubs-trigger?tabs=csharp#hostjson-properties)  
 
         >Remarque : Les fonctions sur la version 1 utilisent une configuration différente, mais cela ne devrait pas poser problème pour les nouveaux développements.
 
     * [Liaison Functions à Event Hubs](https://docs.microsoft.com/azure/azure-functions/functions-bindings-event-hubs)
 
-    * [Bonnes pratiques relatives à Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-best-practices)  
+    * [Bonnes pratiques relatives à Azure Functions](https://docs.microsoft.com/fr-fr/azure/azure-functions/functions-best-practices)  
 
     * [Azure Functions et Event Hubs : optimisation pour le débit](https://medium.com/@iizotov/azure-functions-and-event-hubs-optimising-for-throughput-549c7acd2b75)  
 
